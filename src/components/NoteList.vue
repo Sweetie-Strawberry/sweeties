@@ -28,7 +28,7 @@ const notes = ref([]);
 onMounted(async () => {
   try {
     // 获取 JSON 文件内容
-    const jsonResponse = await axios.get('/note/noteListData.json');
+    const jsonResponse = await axios.get('/sweeties/note/noteListData.json');    //   /sweeties仓库名，github要求必须写！！！
     // 将 JSON 数据赋值给 notes
     notes.value = jsonResponse.data;
   } catch (error) {

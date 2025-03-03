@@ -2,6 +2,7 @@ import { createRouter ,createWebHashHistory } from "vue-router"
 import Home from '../components/Home.vue'
 import NoteList from '../components/NoteList.vue'
 import ShowNote from "../components/ShowNote.vue"
+import MyDescription from "../components/MyDescription.vue"
 
 const router=createRouter({
     history:createWebHashHistory(),
@@ -21,6 +22,10 @@ const router=createRouter({
         {
             path:"/showNote",
             component:ShowNote
+        },
+        {
+            path:"/myDescription",
+            component:MyDescription
         }
     ]
 })

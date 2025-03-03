@@ -10,6 +10,10 @@ function toNoteList(){
     router.push("/noteList")
 }
 
+function toMyDescription(){
+    router.push("/myDescription")
+}
+
 </script>
 
 <template>
@@ -17,6 +21,7 @@ function toNoteList(){
         <el-menu mode="horizontal">
             <el-menu-item index="1" @click="toHome()" >首页</el-menu-item>
             <el-menu-item index="2" @click="toNoteList()" >笔记</el-menu-item>
+            <el-menu-item index="3" @click="toMyDescription()" >个人简介</el-menu-item>
         </el-menu>
     </div>
 </template>
