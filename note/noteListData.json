@@ -2,5 +2,25 @@
     {
         "description": "Java基础",
         "mdUrl": "/sweeties/note/note-2/note-2.md"
+    },
+    {
+        "description": "JVM",
+        "mdUrl": "/sweeties/note/note-3/note-3.md"
+    },
+    {
+        "description": "JUC",
+        "mdUrl": "/sweeties/note/note-4/note-4.md"
+    },
+    {
+        "description": "MySQL和Redis",
+        "mdUrl": "/sweeties/note/note-5/note-5.md"
+    },
+    {
+        "description": "SSM",
+        "mdUrl": "/sweeties/note/note-6/note-6.md"
+    },
+    {
+        "description": "Git",
+        "mdUrl": "/sweeties/note/note-7/note-7.md"
     }
 ]
